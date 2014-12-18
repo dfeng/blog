@@ -1,0 +1,174 @@
+---
+# Main Stylesheet
+---
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import
+        "bourbon/bourbon",
+        "base/base",
+        "neat/neat",
+        // "base",
+        // "layout",
+        "syntax-highlighting"
+;
+
+@mixin blocks() {
+  width: auto;
+  margin: auto;
+  display: inline-block;
+  font-family: $nav-header-font-family;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+header {
+
+  @include margin(80px null 60px null);
+
+  @include outer-container;
+  .site-title {
+
+    text-align: center;
+    font-family: $page-header-font-family;
+    margin-bottom: 30px;
+
+  }
+
+  .site-tagline {
+    display: block;
+    font-family: $nav-header-font-family;
+    font-size: $nav-font-size;
+    text-transform: uppercase;
+    text-align: center;
+    color: $light-gray;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+
+  .menu-wrapper {
+
+    @include span-columns(12);
+    // why this?
+    // because we want to use this as the wrapper so that 
+    // the menu can be aligned to the floated to the center
+    width: 100%;
+    text-align: center;
+
+    nav {
+
+      @include padding(0 50px 0 50px);
+      @include blocks();
+      font-size: $nav-font-size;
+      letter-spacing: 2px;
+
+      a {
+
+        display: inline-block;
+        color: $base-font-color;
+        line-height: $menu-line-height;
+
+        &.active, &:hover {
+
+          color: $base-accent-color;
+          border-bottom: $menu-border;
+
+        }
+        & + a {
+          margin-left: 30px;
+        }
+      }
+    }
+    .line {
+      @include margin(-$base-font-size 10px null 10px);
+      border-bottom: $menu-border;
+
+    }
+  }
+}
+
+.page-content {
+
+  .posts {
+    @include outer-container;
+    .post {
+      @include span-columns(8);
+      @include shift(2);
+      @include margin(null null 100px null);
+
+      h2 {
+        text-align: center;
+        margin-bottom: $base-font-size;
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+      h3 {
+        margin-bottom: $base-font-size;
+      }
+
+      img {
+        @include margin(20px null 20px null);
+      }
+
+      .post-meta {
+        display: block;
+        text-align: center;
+        font-style: italic;
+        color: $base-accent-color;
+        margin-bottom: 20px;
+      }
+
+      .post-tags-wrapper {
+        
+        width: 100%;
+        text-align: center;
+
+        .post-tags {
+          @include padding(0 20px 0 20px);
+          @include blocks();
+          font-size: $base-font-size * 0.7;
+
+          a + a {
+            margin-left: 5px;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .post-divider {
+          @include margin(-$base-font-size * 0.7 null null null);
+          border-bottom: $menu-border;
+        }
+      }
+    }
+
+  }
+
+  .paginator {
+    @include outer-container;
+    border-top: $menu-border;
+    border-bottom: $menu-border;
+    font-family: $nav-header-font-family;
+    font-size: $nav-font-size;
+
+    a {
+      @include padding(10px 0 10px 0);
+      display: inline-block;
+      font-size: $base-font-size * 0.9;
+    }
+
+    .next {
+      text-align: right;
+      float: right;
+    }
+  }
+
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}

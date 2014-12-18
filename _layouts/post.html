@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<section class="posts">
+  <article class="post">
+    <h2>
+      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    </h2>
+    <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+    {{ content }}
+    <div class="post-tags-wrapper">
+      <div class="post-tags">
+        {% assign tags_list = page.tags %}
+        {% include tags %}
+      </div>
+      <div class="post-divider"></div>
+    </div>
+  </article>
+</section>
+<section class="paginator">
+  {% if page.previous %}
+    <a class="previous" href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+  {% else %}
+    <a class="disabled"></a>
+  {% endif %}
+  {% if page.next %}
+    <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+  {% else %}
+    <a class="disabled"></a>
+  {% endif %}
+</section>

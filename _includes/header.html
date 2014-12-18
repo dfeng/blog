@@ -1,0 +1,22 @@
+<header>
+
+  <h1 class="site-title">
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </h1>
+
+  <span class="site-tagline">
+  Question. Everything.
+  </span>
+  <div class="menu-wrapper">
+    <nav>
+      <a {% if page.url contains "index.html" or page.ispost %} class="active" {% endif %} href="/">Blog</a>
+      {% for node in site.pages %}
+        {% if node.title %}
+          <a {% if node.url == page.url %} class="active" {% endif %} href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+    <div class="line"></div>
+  </div>
+
+</header>

@@ -1,0 +1,10 @@
+{% if tags_list.first[0] == null %}
+  {% for tag in tags_list %} 
+    <a href="/tags.html#{{ tag }}">{{ tag }}</a>
+  {% endfor %}
+{% else %}
+  {% for tag in tags_list %} 
+    <a href="/tags.html#{{ tag[0] }}">{{ tag[0] }}</a>
+  {% endfor %}
+{% endif %}
+{% assign tags_list = nil %}

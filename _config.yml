@@ -1,0 +1,21 @@
+# Site settings
+title: "What Would Hartigan Do?"
+tagline: "Question. Everything."
+
+baseurl: "" 
+url: "http://whatwouldhartigando.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md", "Rmd"]
+
+paginate: 5
+
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts    # limit to posts
+    values:
+      ispost: true # automatically set ispost=true for all posts
