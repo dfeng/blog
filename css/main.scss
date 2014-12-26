@@ -4,6 +4,11 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 
+// $visual-grid: true;
+// $visual-grid-color: red;
+// $visual-grid-index: front;
+// $visual-grid-opacity: 0.1;
+
 @import
         "bourbon/bourbon",
         "base/base",
@@ -22,33 +27,35 @@
   background-color: white;
 }
 
+//  ================  // 
+//  ===  Header  ===  // 
+//  ================  // 
+
 header {
 
   @include margin(80px null 60px null);
 
   @include outer-container;
   .site-title {
-
     text-align: center;
     font-family: $page-header-font-family;
-    margin-bottom: 30px;
-
+    margin-bottom: $h1-font-size * 0.5;
   }
 
   .site-tagline {
-    display: block;
     font-family: $nav-header-font-family;
     font-size: $nav-font-size;
     text-transform: uppercase;
     text-align: center;
     color: $light-gray;
     letter-spacing: 2px;
-    margin-bottom: 40px;
+    margin-bottom: $h1-font-size;
   }
 
   .menu-wrapper {
 
-    @include span-columns(12);
+    @include fill-parent();
+
     // why this?
     // because we want to use this as the wrapper so that 
     // the menu can be aligned to the floated to the center
@@ -65,12 +72,12 @@ header {
       a {
 
         display: inline-block;
-        color: $base-font-color;
+        color: $base-accent-color;
         line-height: $menu-line-height;
 
         &.active, &:hover {
 
-          color: $base-accent-color;
+          color: $base-font-color;
           border-bottom: $menu-border;
 
         }
@@ -80,75 +87,74 @@ header {
       }
     }
     .line {
-      @include margin(-$base-font-size 10px null 10px);
+      @include margin(-$base-font-size null null null);
       border-bottom: $menu-border;
 
     }
   }
 }
 
-.page-content {
+//  ===============  // 
+//  ===  Posts  ===  // 
+//  ===============  // 
 
-  .posts {
+.posts {
+  .post {
     @include outer-container;
-    .post {
+    @include margin(null null 100px null);
+
+    &>img:not(div) {
+      @include span-columns(10);
+      @include shift(1);
+    }
+    
+    &>:not(img) {
       @include span-columns(8);
       @include shift(2);
-      @include margin(null null 100px null);
-
-      h2 {
-        text-align: center;
-        margin-bottom: $base-font-size;
-
-        a:hover {
-          text-decoration: underline;
-        }
-      }
-      h3 {
-        margin-bottom: $base-font-size;
-      }
-
-      img {
-        @include margin(20px null 20px null);
-      }
-
-      .post-meta {
-        display: block;
-        text-align: center;
-        font-style: italic;
-        color: $base-accent-color;
-        margin-bottom: 20px;
-      }
-
-      .post-tags-wrapper {
-        
-        width: 100%;
-        text-align: center;
-
-        .post-tags {
-          @include padding(0 20px 0 20px);
-          @include blocks();
-          font-size: $base-font-size * 0.7;
-
-          a + a {
-            margin-left: 5px;
-          }
-          a:hover {
-            text-decoration: underline;
-          }
-        }
-
-        .post-divider {
-          @include margin(-$base-font-size * 0.7 null null null);
-          border-bottom: $menu-border;
-        }
-      }
     }
 
-  }
+    @include media($mobile) {
+      @include fill-parent();
+      @include padding(null 10px null 10px);
+    }
 
+    h2 {
+      text-align: center;
+      margin-bottom: $base-font-size;
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+    h3 {
+      margin-bottom: $base-font-size;
+    }
+    p a {
+      text-decoration: underline;
+    }
+    img {
+      @include margin(20px null 20px null);
+    }
+
+    .post-tags-wrapper {
+      text-align: center;
+
+      .post-divider {
+        @include margin(-$base-font-size * 0.7 null null null);
+        border-bottom: $menu-border;
+      }
+    }
+  }
+}
+
+//  ===================  // 
+//  ===  Paginator  ===  // 
+//  ===================  // 
+
+.paginator-wrap {
+  @include outer-container();
   .paginator {
-    @include outer-container;
+    @include fill-parent();
     border-top: $menu-border;
     border-bottom: $menu-border;
     font-family: $nav-header-font-family;
@@ -157,7 +163,6 @@ header {
     a {
       @include padding(10px 0 10px 0);
       display: inline-block;
-      font-size: $base-font-size * 0.9;
     }
 
     .next {
@@ -165,10 +170,78 @@ header {
       float: right;
     }
   }
-
 }
+
+.post-meta {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.tags {
+  @include padding(0 20px 0 20px);
+  @include blocks();
+  font-size: $nav-font-size;
+
+  a {
+    color: $base-accent-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    & + a {
+      margin-left: 5px;
+    }
+  }
+}
+
 
 footer {
   text-align: center;
   margin-top: 40px;
+}
+
+//  ==============  // 
+//  ===  Tags  ===  // 
+//  ==============  // 
+
+.filters {
+  text-align: center;
+  .filter-posts {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    position: relative;
+    clear: both;
+
+    article {
+      float: left;
+      display: block;
+      width: 285px;
+      height: 90px;
+
+      span {
+        display: block;
+      }
+      .post-meta {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+
+//  ==============  // 
+//  ===  Page  ===  // 
+//  ==============  // 
+
+.page-wrap {
+  @include outer-container();
+
+  .page {
+    @include span-columns(8);
+    @include shift(2);
+  }  
 }

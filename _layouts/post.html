@@ -9,7 +9,7 @@ layout: default
     <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
     {{ content }}
     <div class="post-tags-wrapper">
-      <div class="post-tags">
+      <div class="tags">
         {% assign tags_list = page.tags %}
         {% include tags %}
       </div>
@@ -17,15 +17,18 @@ layout: default
     </div>
   </article>
 </section>
-<section class="paginator">
-  {% if page.previous %}
-    <a class="previous" href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
-  {% else %}
-    <a class="disabled"></a>
-  {% endif %}
-  {% if page.next %}
-    <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
-  {% else %}
-    <a class="disabled"></a>
-  {% endif %}
+
+<section class="paginator-wrap">
+  <div class="paginator">
+    {% if page.previous %}
+      <a class="previous" href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+    {% else %}
+      <a class="disabled"></a>
+    {% endif %}
+    {% if page.next %}
+      <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+    {% else %}
+      <a class="disabled"></a>
+    {% endif %}
+  </div>
 </section>

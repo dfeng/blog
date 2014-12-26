@@ -1,0 +1,30 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+
+<div class="filters">
+  <p>Click on the tags below to filter the posts.</p>
+  <nav class="filter tags">
+    {% if site.tags.first[0] == null %}
+      {% for tag in site.tags %}
+        <a href="#{{ tag }}" rel="{{ tag }}">{{ tag }}</a></li>
+      {% endfor %}
+    {% else %}
+      {% for tag in site.tags %}
+        <a href="#{{ tag[0] }}" rel="{{ tag[0] }}">{{ tag[0] }}</a>
+      {% endfor %}
+    {% endif %}
+      <a href="#" rel="all">all</a>
+  </nav>
+  <section class="filter-posts">
+    {% for post in site.posts %}
+      <article class="{{ post.tags | join " " }}">
+        <span class="post-meta">{{ post.date | | date: "%B %e, %Y" }}</span>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <span class="tagline">{{ post.tagline }}</span>
+      </article>
+    {% endfor %}
+  </section>
+</div>
