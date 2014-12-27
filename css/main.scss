@@ -103,19 +103,29 @@ header {
     @include outer-container;
     @include margin(null null 100px null);
 
-    &>img:not(div) {
-      @include span-columns(10);
-      @include shift(1);
-    }
-    
-    &>:not(img) {
-      @include span-columns(8);
-      @include shift(2);
+    @include media($nomobile) {
+      &>img {
+        @include span-columns(10);
+        @include shift(1);
+      }
+
+      // &>blockquote {
+      //   @include span-columns(8);
+      //   @include shift(2);
+      // }
+      
+      &>:not(img) {
+        @include span-columns(6);
+        @include shift(3);
+      }
     }
 
     @include media($mobile) {
-      @include fill-parent();
-      @include padding(null 10px null 10px);
+      &>* {
+        @include fill-parent();
+      }
+      // @include fill-parent();
+      @include padding(null 5px null 5px);
     }
 
     h2 {
@@ -131,9 +141,20 @@ header {
     }
     p a {
       text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
     }
     img {
       @include margin(20px null 20px null);
+    }
+    blockquote {
+      font-family: "Playfair Display", $serif;
+      font-size: $h3-font-size;
+      // color: $base-font-color;
+      // border-left: none;
+      font-style: italic;
+      // padding-left: 0;
     }
 
     .post-tags-wrapper {
@@ -144,6 +165,17 @@ header {
         border-bottom: $menu-border;
       }
     }
+  }
+}
+
+//  ===================  // 
+//  ===  Footnotes  ===  // 
+//  ===================  // 
+
+.footnotes {
+  ol {
+    list-style-type: decimal;
+    font-size: $nav-font-size;
   }
 }
 
@@ -159,13 +191,15 @@ header {
     border-bottom: $menu-border;
     font-family: $nav-header-font-family;
     font-size: $nav-font-size;
+    @include padding(10px 0 10px 0);
 
     a {
-      @include padding(10px 0 10px 0);
       display: inline-block;
+      padding-left: 30px;
     }
 
     .next {
+      padding-right: 30px;
       text-align: right;
       float: right;
     }
@@ -241,7 +275,7 @@ footer {
   @include outer-container();
 
   .page {
-    @include span-columns(8);
-    @include shift(2);
+    @include span-columns(6);
+    @include shift(3);
   }  
 }
