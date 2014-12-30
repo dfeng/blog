@@ -38,7 +38,10 @@
   </script>-->
   <script type="text/javascript">
   $(function(){
-    $('.post img').unwrap();
+    $('.post img').unwrap()
+      .after(function() {
+        return "<figcaption>" + this.alt + "</figcaption>";
+      });
 
     $('.filters').filters({
       move: {

@@ -27,7 +27,7 @@ Ever wondered why the Reddit [Secret Santa](http://redditgifts.com/exchanges/sec
 Now, most of you will know that Scandinavia is synonymous with Minimalism. I knew my tastes leaned in that direction, but I never really thought about why. 
 Sitting at that café, surrounded by the golden, glamorous glitz, I finally knew.
 
-![Bottles](/img/copenhagen/IMG_8860.jpg)
+![](/img/copenhagen/IMG_8860.jpg)
 
 > It is the choice between pretension and authenticity.
 
@@ -45,7 +45,11 @@ Sitting at that café, surrounded by the golden, glamorous glitz, I finally knew
 
 > It is the choice between unsustainable and sustainable living.
 
-Suddenly, there was a common theme to everything -- my distaste for the consumerist culture; my enjoyment of [minimalism](http://www.minimallyminimal.com/) and Apple products; my love for clean and beautiful mathematical proofs; this fine establishment of a website.
+Suddenly, there was a common theme to everything -- my distaste for the consumerist culture; my enjoyment of [minimalism](http://www.minimallyminimal.com/) and Apple products; my love for clean and beautiful mathematical proofs; this fine establishment of a website. Copenhagen delivered.
+
+But your mileage may vary.
+
+You may come home enlightened about yourself, albeit drenched in rain. Or you wont -- not my problem. If I were not enamored of minimalism, I probably would have found Copenhagen rather lacking as a tourist destination. As such, I thoroughly enjoyed it, especially the Airbnb residence that was as Scandinavian as you can dream it. One thing though that Copenhagen has going for it is that Sweden lies a wee 30 minute train ride away -- convenient for those of you who travel for the country tallies.
 
 ![](/img/copenhagen/IMG_8784.jpg)
 
@@ -64,8 +68,21 @@ Suddenly, there was a common theme to everything -- my distaste for the consumer
 
 ![](/img/copenhagen/IMG_8866.jpg)
 
-![](/img/copenhagen/IMG_8886.jpg)
+<!-- ![](/img/copenhagen/IMG_8886.jpg) -->
 
-![](/img/copenhagen/IMG_8888.jpg)
+![Nyhaven](/img/copenhagen/IMG_8888.jpg)
 
-Really though, too bad about the weather. I probably would have adored this city. Now all I remember is holding an umbrella indoors because I was so used to it.
+### What you really came here for
+
+Here's a succint review of Copenhagen:
+
+| Nyhaven (New Haven, anyone?) | ★★★★☆
+| Malmö, Sweden                | ★★★☆☆
+| Smoked Salmon                | ★★★★★
+| Christmas markets            | ★☆☆☆☆
+| [Noma](http://noma.dk) (the best restaurant in the world)      | ? ? ? ? ? ?
+| Little Mermaid               | ★☆☆☆☆ *
+
+Really though, too bad about the weather. I probably would have adored this city -- it's called the foodie mecca, after all. Now all I remember is holding an umbrella indoors because I was so used to it.
+
+\* So I've heard.

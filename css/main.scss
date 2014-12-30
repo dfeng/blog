@@ -120,7 +120,7 @@ header {
       //   @include shift(2);
       // }
       
-      &>:not(img) {
+      &>:not(img):not(figcaption) {
         @include span-columns(6);
         @include shift(3);
       }
@@ -156,6 +156,12 @@ header {
         @include margin(40px null 40px null);
       }
     }
+    figcaption {
+      @include span-columns(2);
+      @include shift(9);
+      text-align: right;
+      font-style: italic;
+    }
     blockquote {
       font-family: "Playfair Display", $serif;
       font-size: $h3-font-size;
@@ -167,6 +173,7 @@ header {
 
     .post-tags-wrapper {
       text-align: center;
+      margin-top: 20px;
 
       .post-divider {
         @include margin(-$base-font-size * 0.7 null null null);
