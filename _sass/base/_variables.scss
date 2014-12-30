@@ -1,6 +1,6 @@
 // Typography
 $sans-serif: $helvetica;
-$serif: $georgia;
+$serif: "Palatino", "Palatino Linotype", $georgia;
 $base-font-family: $serif;
 $header-font-family: $base-font-family;
 $page-header-font-family: $base-font-family;
@@ -33,7 +33,7 @@ $header-letter-spacing: 1px;
 
 // Colors
 $blue: #477DCA;
-$dark-gray: #333;
+$dark-gray: #444;
 $medium-gray: #888;
 $light-gray: #DDD;
 $light-red: #FBE3E4;
