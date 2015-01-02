@@ -8,7 +8,7 @@ tagline:
 ---
 
 
-It was Christmas Eve, our last day in Copenhagen. The weather was being commendably consistent in its disinterest towards the drizzle of tourists remaining in the town. We were hungry and without options, as the Danes are not as resourceful as the Chinese, the great businessmen who never close on holidays but who unfortunately lack much presence in Scandinavia.
+It was Christmas Eve, our last day in Copenhagen. The weather was being commendably consistent in its disinterest towards the drizzle of tourists remaining in the town. We were hungry and without options, as the Danes are not as resourceful as the Chinese -- the great businessmen who never close on holidays but who unfortunately lack much presence in Scandinavia.
 
 This doesn't happen very often, but the French saved the day that day.
 
@@ -20,11 +20,11 @@ The oldest café in Copenhagen had decided that Christmas Eve was no reason for 
 
 ![](/img/copenhagen/IMG_8772.jpg)
 
-Ever wondered why the Reddit [Secret Santa](http://redditgifts.com/exchanges/secret-santa-2014/) exchange program is so successful? It's simple -- because to know someone really well, all you need is their subscribed subreddit list. This will tell you more about them than a year of interactions. Now, if you were to browse my subreddit list, you might notice [/r/minimalism](http://www.reddit.com/r/minimalism). So, that was a convoluted way of saying that
+Ever wondered why the Reddit [Secret Santa](http://redditgifts.com/exchanges/secret-santa-2014/) exchange program is so successful? It's simple -- because to know someone really well, all you need is their subscribed subreddit list. This will tell you more about them than years of interaction. Now, if you were to browse my subreddit list, you might notice that I'm subscribed to [/r/minimalism](http://www.reddit.com/r/minimalism), and you wouldn't be wrong to conclude the following --
 
 > I enjoy minimalism.
 
-Now, most of you will know that Scandinavia is synonymous with Minimalism. I knew my tastes leaned in that direction, but I never really thought about why. 
+Now, most of you will know that Scandinavia is synonymous with minimalist design. I knew my tastes leaned in that direction, but I never really thought about why. 
 Sitting at that café, surrounded by the golden, glamorous glitz, I finally knew.
 
 ![](/img/copenhagen/IMG_8860.jpg)
@@ -45,11 +45,11 @@ Sitting at that café, surrounded by the golden, glamorous glitz, I finally knew
 
 > It is the choice between unsustainable and sustainable living.
 
-Suddenly, there was a common theme to everything -- my distaste for the consumerist culture; my enjoyment of [minimalism](http://www.minimallyminimal.com/) and Apple products; my love for clean and beautiful mathematical proofs; this fine establishment of a website. Copenhagen delivered.
+Suddenly, there was a common thread to everything -- my distaste for the consumerist culture; my enjoyment of [minimalism](http://www.minimallyminimal.com/) and Apple products; my love for clean and beautiful mathematics proofs; this fine establishment of a website.
 
 But your mileage may vary.
 
-You may come home enlightened about yourself, albeit drenched in rain. Or you wont -- not my problem. If I were not enamored of minimalism, I probably would have found Copenhagen rather lacking as a tourist destination. As such, I thoroughly enjoyed it, especially the Airbnb residence that was as Scandinavian as you can dream it. One thing though that Copenhagen has going for it is that Sweden lies a wee 30 minute train ride away -- convenient for those of you who travel for the country tallies.
+You may come home enlightened about yourself, albeit drenched in rain. Or you wont, albeit a few pounds heavier. If I were not enamored of minimalism, I probably would have found Copenhagen rather lacking as a tourist destination. As such, I thoroughly enjoyed it, especially the Airbnb residence that was as minimalist as you can imagine.
 
 ![](/img/copenhagen/IMG_8784.jpg)
 
@@ -72,9 +72,11 @@ You may come home enlightened about yourself, albeit drenched in rain. Or you wo
 
 ![Nyhaven](/img/copenhagen/IMG_8888.jpg)
 
+Really though, too bad about the weather. I probably would have adored this city -- it's called the foodie mecca, after all. Now all I remember is holding an umbrella indoors because I was so used to it.
+
 ### What you really came here for
 
-Here's a succint review of Copenhagen:
+What's a travel post without any reviews?
 
 | Nyhaven (New Haven, anyone?) | ★★★★☆
 | Malmö, Sweden                | ★★★☆☆
@@ -83,6 +85,5 @@ Here's a succint review of Copenhagen:
 | [Noma](http://noma.dk) (the best restaurant in the world)      | ? ? ? ? ? ?
 | Little Mermaid               | ★☆☆☆☆ *
 
-Really though, too bad about the weather. I probably would have adored this city -- it's called the foodie mecca, after all. Now all I remember is holding an umbrella indoors because I was so used to it.
 
 \* So I've heard.

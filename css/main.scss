@@ -142,7 +142,7 @@ header {
       }
     }
     h3 {
-      margin-bottom: $base-font-size;
+      @include margin($base-font-size null $base-font-size / 2 null);
     }
     p a {
       text-decoration: underline;
@@ -164,7 +164,7 @@ header {
     }
     blockquote {
       font-family: "Playfair Display", $serif;
-      font-size: $h3-font-size;
+      font-size: $h4-font-size;
       font-style: italic;
       // &+img {
       //   @include margin(null null 40px null);
