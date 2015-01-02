@@ -24,7 +24,7 @@ Ever wondered why the Reddit [Secret Santa](http://redditgifts.com/exchanges/sec
 
 > I enjoy minimalism.
 
-Now, most of you will know that Scandinavia is synonymous with minimalist design. I knew my tastes leaned in that direction, but I never really thought about why. 
+Most of you will know that Scandinavia is synonymous with minimalist design. I knew my tastes leaned in that direction, but I never really thought about why. 
 Sitting at that café, surrounded by the golden, glamorous glitz, I finally knew.
 
 ![](/img/copenhagen/IMG_8860.jpg)

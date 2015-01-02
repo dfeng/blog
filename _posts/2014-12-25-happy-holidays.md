@@ -11,8 +11,4 @@ What better way to celebrate the holidays than to stuff a gargantuan poultry wit
 
 ![](/img/IMG_8896.jpg)
 
-We end this broadcast with a message from the [Communist Party](http://sinosphere.blogs.nytimes.com/2014/12/25/atheist-china-cracks-down-on-a-force-of-the-west-christmas/).
-
-> Christmas is a tinsel-draped Trojan horse that aims to subvert traditional Chinese culture.
-
 Happy Holidays.
