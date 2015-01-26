@@ -18,7 +18,8 @@
         "syntax-highlighting"
 ;
 
-$bg-color: #F6F6F6;
+$bg-color: white;
+// $bg-color: #F6F6F6;
 
 @mixin blocks() {
   width: auto;
