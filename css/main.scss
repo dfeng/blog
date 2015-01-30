@@ -152,7 +152,7 @@ header {
       }
     }
     img {
-      @include margin(20px null 20px null);
+      @include margin(5px null 15px null);
       &+blockquote {
         @include margin(40px null 40px null);
       }
