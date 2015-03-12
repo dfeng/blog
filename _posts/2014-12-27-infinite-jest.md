@@ -2,7 +2,7 @@
 layout: post
 title: Infinite Jest
 categories: []
-tags: [book]
+tags: [books]
 published: True
 tagline: 
 ---
