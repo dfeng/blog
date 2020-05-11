@@ -2,8 +2,8 @@
 title: "What Would Hartigan Do?"
 tagline: "Question. Everything."
 
-baseurl: "" 
-url: "http://whatwouldhartigando.com" # the base hostname & protocol for your site
+baseurl: "/blog" 
+url: "http://dfeng.github.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
